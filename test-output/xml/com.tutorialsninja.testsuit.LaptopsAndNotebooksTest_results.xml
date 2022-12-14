@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login Test"
+           tests="2"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="10.742">
+  <properties />
+            <testcase name="verifyThatUserPlaceOrderSuccessfully" time="9.641" classname="com.tutorialsninja.testsuit.LaptopsAndNotebooksTest">
+                <failure type="java.lang.AssertionError"
+                  message="Error Message not displayed expected [Success: You have added MacBook to your shopping cart!×] but found [Description
+Specification
+Reviews (0)
+Intel Core 2 Duo processor
+Powered by an Intel Core 2 Duo processor at speeds up to 2.16GHz, the new MacBook is the fastest ever.
+1GB memory, larger hard drives
+The new MacBook now comes with 1GB of memory standard and larger hard drives for the entire line perfect for running more of your favorite applications and storing growing media collections.
+Sleek, 1.08-inch-thin design
+MacBook makes it easy to hit the road thanks to its tough polycarbonate case, built-in wireless technologies, and innovative MagSafe Power Adapter that releases automatically if someone accidentally trips on the cord.
+Built-in iSight camera
+Right out of the box, you can have a video chat with friends or family,2 record a video at your desk, or take fun pictures with Photo Booth
+MacBook
+Brand: Apple
+Product Code: Product 16
+Reward Points: 600
+Availability: In Stock
+£368.73
+Ex Tax: £306.25
+Qty
+
+Add to Cart
+0 reviews / Write a review
+Share
+10]"
+              >
+<![CDATA[java.lang.AssertionError: Error Message not displayed expected [Success: You have added MacBook to your shopping cart!×] but found [Description
+Specification
+Reviews (0)
+Intel Core 2 Duo processor
+Powered by an Intel Core 2 Duo processor at speeds up to 2.16GHz, the new MacBook is the fastest ever.
+1GB memory, larger hard drives
+The new MacBook now comes with 1GB of memory standard and larger hard drives for the entire line perfect for running more of your favorite applications and storing growing media collections.
+Sleek, 1.08-inch-thin design
+MacBook makes it easy to hit the road thanks to its tough polycarbonate case, built-in wireless technologies, and innovative MagSafe Power Adapter that releases automatically if someone accidentally trips on the cord.
+Built-in iSight camera
+Right out of the box, you can have a video chat with friends or family,2 record a video at your desk, or take fun pictures with Photo Booth
+MacBook
+Brand: Apple
+Product Code: Product 16
+Reward Points: 600
+Availability: In Stock
+£368.73
+Ex Tax: £306.25
+Qty
+
+Add to Cart
+0 reviews / Write a review
+Share
+10]
+  org.testng.Assert.fail(Assert.java:110)
+  org.testng.Assert.failNotEquals(Assert.java:1413)
+  org.testng.Assert.assertEqualsImpl(Assert.java:149)
+  org.testng.Assert.assertEquals(Assert.java:131)
+  org.testng.Assert.assertEquals(Assert.java:655)
+  com.tutorialsninja.testsuit.LaptopsAndNotebooksTest.verifyThatUserPlaceOrderSuccessfully(LaptopsAndNotebooksTest.java:61)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.util.ArrayList.forEach(ArrayList.java:1249)
+  org.testng.TestRunner.privateRun(TestRunner.java:808)
+  org.testng.TestRunner.run(TestRunner.java:603)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+  org.testng.SuiteRunner.run(SuiteRunner.java:326)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.runSuites(TestNG.java:1092)
+  org.testng.TestNG.run(TestNG.java:1060)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="verifyProductsPriceDisplayHighToLowSuccessfully" time="1.101" classname="com.tutorialsninja.testsuit.LaptopsAndNotebooksTest" />
+      
+</testsuite>
